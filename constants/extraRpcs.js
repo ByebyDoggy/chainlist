@@ -361,6 +361,7 @@ export const extraRpcs = {
       "https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
       //"http://18.211.207.34:8545",
       "https://main-light.eth.linkpool.io",
+      "https://rpc.ankr.com/eth/51d4569084eb42f69ab67ef2e4c5c97e9dfbf0f08871c4c037375c93e8907da0",
       {
         url: "https://rpc.eth.gateway.fm",
         tracking: "yes",
@@ -877,6 +878,8 @@ export const extraRpcs = {
       "https://bsc-dataseed3.bnbchain.org/",
       "https://bsc-dataseed4.bnbchain.org/",
       "https://bsc-dataseed6.dict.life/",
+      "https://bsc-mainnet.infura.io/v3/163a44154f764ae685e8701a980f1238",
+      "https://rpc.ankr.com/bsc/51d4569084eb42f69ab67ef2e4c5c97e9dfbf0f08871c4c037375c93e8907da0",
       {
         url: "https://rpc-bsc.48.club",
         tracking: "limited",
@@ -900,6 +903,11 @@ export const extraRpcs = {
       {
         url: "https://binance-smart-chain-public.nodies.app",
         tracking: "limited",
+        trackingDetails: privacyStatement.nodies,
+      },
+       {
+        url: "https://quiet-little-arrow.bsc.quiknode.pro/8053101b7bc34ac69237a7137cf332f6c884c811",
+        tracking: "yes",
         trackingDetails: privacyStatement.nodies,
       },
       {
@@ -1653,8 +1661,15 @@ export const extraRpcs = {
   42161: {
     rpcs: [
       "https://arb1.arbitrum.io/rpc",
+      "https://arbitrum-mainnet.infura.io/v3/163a44154f764ae685e8701a980f1238",
+      "https://rpc.ankr.com/arbitrum/51d4569084eb42f69ab67ef2e4c5c97e9dfbf0f08871c4c037375c93e8907da0",
       {
         url: "https://1rpc.io/arb",
+        tracking: "none",
+        trackingDetails: privacyStatement.onerpc,
+      },
+      {
+        url: "https://quiet-little-arrow.arbitrum-mainnet.quiknode.pro/8053101b7bc34ac69237a7137cf332f6c884c811",
         tracking: "none",
         trackingDetails: privacyStatement.onerpc,
       },
