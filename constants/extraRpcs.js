@@ -231,6 +231,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.getblock,
       },
       {
+        url: "https://quiet-little-arrow.quiknode.pro/8053101b7bc34ac69237a7137cf332f6c884c811",
+        tracking: "yes",
+        trackingDetails: privacyStatement.nodereal,
+      },
+      {
         url: "https://eth-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
         tracking: "yes",
         trackingDetails: privacyStatement.nodereal,
@@ -332,6 +337,11 @@ export const extraRpcs = {
       },
       {
         url: "https://eth-mainnet.g.alchemy.com/v2/demo",
+        tracking: "yes",
+        trackingDetails: privacyStatement.alchemy,
+      },
+      {
+        url: "https://rpc.coinsdo.net/eth",
         tracking: "yes",
         trackingDetails: privacyStatement.alchemy,
       },
@@ -870,6 +880,11 @@ export const extraRpcs = {
       {
         url: "https://rpc-bsc.48.club",
         tracking: "limited",
+        trackingDetails: privacyStatement["48Club"],
+      },
+         {
+        url: "https://rpc.coinsdo.net/bsc",
+        tracking: "none",
         trackingDetails: privacyStatement["48Club"],
       },
       {
@@ -1718,6 +1733,11 @@ export const extraRpcs = {
         url: "wss://arbitrum.callstaticrpc.com",
         tracking: "none",
         trackingDetails: privacyStatement.callstatic,
+      },
+      {
+        url: "https://rpc.coinsdo.net/arb1",
+        tracking: "none",
+        trackingDetails: privacyStatement.omnia,
       },
       {
         url: "https://endpoints.omniatech.io/v1/arbitrum/one/public",
